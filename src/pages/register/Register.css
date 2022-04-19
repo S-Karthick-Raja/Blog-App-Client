@@ -1,0 +1,68 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("https://cdn.woorise.com/template/wp-content/uploads/sites/62/2021/02/online-registration-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  line-height: 30px;
+}
+
+.registerTitle {
+  font-size: 50px;
+}
+
+.registerTitle {
+  color: rgb(0, 71, 111);
+  margin-bottom: 10px;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: whitesmoke;
+  border: none;
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 120px;
+}
