@@ -8,9 +8,9 @@ function Post({ post }) {
       {post.photo && <img className="postImg" src={PF + post.photo} alt="" />}
       <div className="postInfo">
         <div className="postCtgs"> {post.name}
-          {/* {post.categories.map((c) => (
+          {post.categories.map((c) => (
             <span className="postCtg">{c.name}</span>
-          ))} */}
+          ))}
         </div>
         <Link to={`/post/${post._id}`} className="link">
           <span className="postTitle">{post.title}</span>

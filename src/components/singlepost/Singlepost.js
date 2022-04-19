@@ -42,7 +42,7 @@ function Singlepost() {
     try {
       await axios.put(`/posts/${post._id}`, {
         username:user.username,
-        userId: user._id,
+        // userId: user._id,
         title,
         desc,
       });
@@ -53,7 +53,6 @@ function Singlepost() {
 
   console.log(user._id)
   console.log(post.userId)
-
 
   return (
     <div className="singlePost">

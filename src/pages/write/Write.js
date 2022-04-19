@@ -40,7 +40,6 @@ function Write() {
 
       history.push("/post/" + res.data._id);
     } catch (error) {
-      console.log(error);
     }
   };
 
